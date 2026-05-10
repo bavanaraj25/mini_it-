@@ -13,7 +13,8 @@ class Database:
             "tasks": "tasks.json",
             "quests": "quests.json",
             "pet": "pet.json",
-            "stats": "stats.json"
+            "stats": "stats.json",
+            "tasks.json": "tasks.json"
         }
 
         self._initialize_files()

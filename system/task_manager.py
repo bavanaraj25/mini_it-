@@ -1,9 +1,9 @@
-from database import Database
+from system.database import Database
 
 class TaskSystem:
     def __init__(self):
         self.db = Database()
-        self.filename = "tasks.json"
+        self.filename = "tasks"
 
     # -------------------
     # GET ALL TASKS

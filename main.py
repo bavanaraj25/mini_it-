@@ -1,5 +1,5 @@
-from database import Database
-from task_manager import TaskSystem
+from system.database import Database
+from system.task_manager import TaskSystem
 
 # =========================
 # INITIALISE DATABASE
@@ -9,7 +9,7 @@ db = Database()
 # =========================
 # CONNECT SYSTEMS
 # =========================
-task_system = TaskSystem(db)
+task_system = TaskSystem()
 
 # =========================
 # HELPER FUNCTION
